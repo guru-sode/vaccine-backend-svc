@@ -14,7 +14,6 @@ public class UserResourcetest {
                 .when().get("/users")
                 .then()
                 .statusCode(200);
-//                .body(is("Hello from RESTEasy Reactive"));
     }
 
 }
